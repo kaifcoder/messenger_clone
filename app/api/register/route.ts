@@ -24,6 +24,5 @@ export async function POST(
     } catch (error: any) {
         console.log(error, "Register error");
         return new NextResponse(error.message, {status: 500});
-    }
-    
+    }    
 } 
